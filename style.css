@@ -214,7 +214,68 @@ p {
 
 }
 
+@media only screen and (max-width: 380px) {
 
+.logo {
+  margin-left: 120px;
+}
+
+.logo h1 {
+  font-size: 2.5em;
+  line-height: .9em;
+}
+
+.work-container {
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.mandolino {
+  margin: auto;
+
+}
+
+.social {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: auto;
+}
+
+.social-link {
+  padding: 10px;
+  font-size: .6em;
+}
+
+.work-container2 {
+  width: 100%;
+}
+.banjo {
+  order: 0; 
+}
+
+.cv p{
+  width:100%;
+  margin: 1em;;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
+/* img {
+  margin: auto;
+  width: 70vw;
+  height: auto;
+} */
+
+}
 
 
 
