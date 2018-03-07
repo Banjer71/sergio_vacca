@@ -4,10 +4,10 @@ body {
   margin: 0;
   padding: 0;
   background: #F5F4EC;
-  background-image: url(img/bg.jpg);
+  /* background-image: url(img/bg.jpg);
   background-position: center top;
   background-size: 100% 100%;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: relative;
+  /* position: relative; */
 }
 
 .logo {
@@ -105,6 +105,9 @@ img {
 .social-link {
   list-style-type: none;
   color: #0a074a;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .social-link li {
@@ -147,9 +150,56 @@ p {
 
 
 
+/*------------- media query ----------*/
+
+@media only screen and (max-width: 740px) {
+
+
+}
 
 
 
+@media only screen and (max-width: 500px) {
+
+.logo {
+  margin-left: 120px;
+}
+
+.logo h1 {
+  font-size: 2.5em;
+  line-height: .9em;
+}
+
+.work-container {
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.mandolino {
+  margin: auto;
+
+}
+
+.social {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: auto;
+}
+
+.social-link {
+  padding: 0;
+  font-size: .9em;
+}
+
+
+}
 
 
 
