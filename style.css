@@ -4,10 +4,6 @@ body {
   margin: 0;
   padding: 0;
   background: #F5F4EC;
-  /* background-image: url(img/bg.jpg);
-  background-position: center top;
-  background-size: 100% 100%;
-  background-attachment: fixed; */
 }
 
 .container {
@@ -79,8 +75,6 @@ h3 {
   justify-content: flex-start;
   align-items: center;
   background: #fff;
-  
-  
 }
 
 .mandolino {
@@ -98,20 +92,21 @@ img {
   height: auto;
 }
 
-.social {
+/* .social {
   margin-left:200px; 
-}
+} */
 
 .social-link {
   list-style-type: none;
-  color: #0a074a;
+  color: #7087A4;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .social-link li {
-  padding: 10px;
+  padding: 20px;
 }
 
 
@@ -136,19 +131,15 @@ img {
 .clip2 {
   -webkit-clip-path: polygon(0 0, 66% 0, 100% 100%, 25% 100%);
 clip-path: polygon(0 0, 66% 0, 100% 100%, 25% 100%);
-
 }
-
 
 p {
   font-family: Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 20px;
   width: 800px;
   overflow: auto;
 }
-
-
 
 /*------------- media query ----------*/
 
@@ -157,11 +148,6 @@ p {
 .container{
   position: relative;
 }
-
-/* .logo {
-  margin-left: 20px;
-} */
-
 
 .logo h1 {
   font-size: 2.5em;
@@ -172,30 +158,23 @@ p {
   width: 100%;
 }
 
-/* .project {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-} */
-
 .mandolino {
   margin: auto;
-
 }
 
 .social {
   margin: auto;
 }
 
-.social-link {
+/* .social-link {
   padding: 0;
   font-size: .9em;
-}
+} */
 
 .work-container2 {
   width: 100%;
 }
+
 .banjo {
   order: 0; 
 }
@@ -205,10 +184,10 @@ p {
   margin: 1em;;
   padding-left: 2em;
   padding-right: 2em;
+  font-size: 1em;
 }
 
 }
-
 
 
 @media only screen and (max-width: 500px) {
@@ -234,29 +213,25 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .mandolino {
   margin: auto;
-
 }
 
 .social {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   margin: auto;
 }
 
-.social-link {
+/* .social-link {
   padding: 0;
   font-size: .9em;
-}
+} */
 
 .work-container2 {
   width: 100%;
 }
+
 .banjo {
   order: 0; 
 }
@@ -266,6 +241,7 @@ p {
   margin: 1em;;
   padding-left: 2em;
   padding-right: 2em;
+  font-size: 1em;
 }
 
 }
@@ -294,29 +270,25 @@ p {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .mandolino {
   margin: auto;
-
 }
 
 .social {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   margin: auto;
 }
 
 .social-link {
   padding: 10px;
-  font-size: .6em;
+  font-size: .8em;
 }
 
 .work-container2 {
   width: 100%;
 }
+
 .banjo {
   order: 0; 
 }
@@ -326,6 +298,7 @@ p {
   margin: 1em;;
   padding-left: 2em;
   padding-right: 2em;
+  font-size: 1em;
 }
 
 
@@ -344,105 +317,5 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-/* .mandolino {
-  width: 200px;
-	height: 200px;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid red;
-
-
-  width: 200px;
-  height: 200px;
-  border:1px solid grey;
-  border-radius: 4px;
-  background: white;
-  margin: 10px;
-} */
-
-/* .banjo {
-  width: 200px;
-  height: 200px;
-  border:1px solid grey;
-  border-radius: 4px;
-  background: white;
-  margin: 10px;
-} */
-
-/* .cv {
-  width: 200px;
-  height: 200px;
-  border:1px solid grey;
-  border-radius: 4px;
-  background: white;
-  margin: 10px;
-} */
-
-
-
-/* footer {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background: #ffc728; */
-  
-  
-  
-  
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center; 
-  align-items: center;
-  margin: 20px auto 0; 
-}*/
-
-/* footer::after {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  content: '';
-  background:inherit;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform-origin: top left;
-  transform: skewY(4deg);
-} */
-
-/* .foot1 {
- width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid red; 
-
-  margin: 10px;
-  width: 100px;
-  height: 100px;
-  background: brown; 
-} */
-
-/* .foot2 {
-  margin: 10px;
-  width: 100px;
-  height: 100px;
-  background: brown;
-
-} */ 
-
-/* img {
-  clip-path: polygon(24% 3%, 98% 4%, 80% 79%, 98% 95%, 46% 100%, 3% 84%);
-} */
 
 
