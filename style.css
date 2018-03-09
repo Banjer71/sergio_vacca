@@ -248,7 +248,7 @@ img {
 
 }
 
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
 
 .container {
   position: relative;
@@ -282,11 +282,6 @@ img {
   margin: auto;
 }
 
-/* .social-link {
-  padding: 10px;
-  font-size: .8em;
-} */
-
 .social-link li {
   padding: 0;
 }
@@ -313,7 +308,7 @@ img {
   width: 65vw;
 }
 
-}
+} */
 
 
 
