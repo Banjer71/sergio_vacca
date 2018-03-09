@@ -6,6 +6,11 @@ body {
   background: #F5F4EC;
 }
 
+a {
+  color: #7087A4;
+  text-decoration: none;
+}
+
 .container {
   background: #000 url(img/sergio_top.jpg);
   background-size: cover;
@@ -72,14 +77,20 @@ h3 {
 .project {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background: #fff;
+
 }
 
 .mandolino {
-  margin-left: 200px;
-}
+  margin-right: 100px;
+  padding-left: 20px;
+} 
+
+.ensamble {
+   /* margin-left: 200px; */
+}  
 
 .clip1 {
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 83% 97%, 0% 100%);
@@ -159,7 +170,12 @@ p {
 
 .mandolino {
   margin: auto;
+  padding: 0;
 }
+
+.ensamble {
+   margin-left: 50px;
+}  
 
 .social {
   margin: auto;
