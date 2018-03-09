@@ -165,10 +165,9 @@ p {
   margin: auto;
 }
 
-/* .social-link {
-  padding: 0;
-  font-size: .9em;
-} */
+.social-link li {
+  padding: 10px;
+}
 
 .work-container2 {
   width: 100%;
@@ -283,9 +282,13 @@ img {
   margin: auto;
 }
 
-.social-link {
+/* .social-link {
   padding: 10px;
   font-size: .8em;
+} */
+
+.social-link li {
+  padding: 0;
 }
 
 .work-container2 {
