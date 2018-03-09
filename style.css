@@ -101,7 +101,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  padding-left: 0;
 }
 
 .social-link li {
@@ -249,7 +249,7 @@ img {
 
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 320px) {
 
 .container {
   position: relative;
@@ -306,6 +306,7 @@ img {
 
 
 img {
+  
   width: 65vw;
 }
 
