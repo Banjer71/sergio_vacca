@@ -237,10 +237,10 @@ p {
   margin: auto;
 }
 
-/* .social-link {
-  padding: 0;
-  font-size: .9em;
-} */
+.social-link {
+ 
+  font-size: .7em;
+}
 
 .work-container2 {
   width: 100%;
