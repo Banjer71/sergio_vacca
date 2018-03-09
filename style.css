@@ -87,8 +87,7 @@ h3 {
 }
 
 img {
-  margin: auto;
-  /* width: 23vw; */
+  margin: 0;
   height: auto;
 }
 
@@ -244,6 +243,10 @@ p {
   font-size: 1em;
 }
 
+img {
+  width: 65vw;
+}
+
 }
 
 @media only screen and (max-width: 380px) {
@@ -302,11 +305,9 @@ p {
 }
 
 
-/* img {
-  margin: auto;
-  width: 70vw;
-  height: auto;
-} */
+img {
+  width: 65vw;
+}
 
 }
 
