@@ -93,8 +93,9 @@ h3 {
 }  
 
 .clip1 {
-  -webkit-clip-path: polygon(25% 0%, 100% 0%, 83% 97%, 0% 100%);
-          clip-path: polygon(25% 0%, 100% 0%, 83% 97%, 0% 100%);
+  -webkit-clip-path: polygon(25% 0%, 90% 0%, 70% 100%, 0% 100%);
+          /* clip-path: polygon(25% 0%, 100% 0%, 83% 97%, 0% 100%); */
+          clip-path: polygon(25% 0%, 90% 0%, 70% 100%, 0% 100%);
 }
 
 img {
